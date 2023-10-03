@@ -103,3 +103,42 @@ body {
 /* ========================================================= */
 /* ========================================================= */
 
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 40px;
+    font-weight: 700;
+    font-family: "Inter";
+}
+.container {
+}
+.footer__inner {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.footer__title {
+    margin-bottom: 20px;
+}
+.footer__text {
+    margin-bottom: 20px;
+}
+.footer__logo {
+}
+
+.footer__menu {
+}
+.footer__list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer__item {
+}
+.footer__link {
+    color: #fff;
+}
+.footer__link:hover {
+    text-decoration: underline;
+}
+
