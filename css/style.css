@@ -53,6 +53,48 @@ body {
 }
 /* ========================================================= */
 
+.header {
+    padding: 40px 0;
+}
+.container {
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+}
+.header__menu {
+}
+.menu {
+}
+.menu__list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.menu__item {
+}
+.menu__link {
+    color: #000;
+    font-weight: 700;
+}
+.menu__link:hover {
+    text-decoration: underline;
+}
+.header__btn {
+    text-transform: uppercase;
+    background-color: #e37106;
+    color: #fff;
+    padding: 15px 58px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.header__btn:hover {
+    background-color: #ef7706;
+}
+
 /* ========================================================= */
 /* ========================================================= */
 /* ========================================================= */
