@@ -63,6 +63,7 @@ body {
     justify-content: space-between;
     align-items: center;
     font-weight: 700;
+    text-transform: uppercase;
 }
 .header__logo {
 }
@@ -151,7 +152,7 @@ body {
     }
     .menu__list {
         flex-wrap: wrap;
-        gap: 20px 40px;
+        gap: 40px 20px;
     }
     .menu__item:first-child {
         margin-left: auto;
@@ -161,6 +162,11 @@ body {
     }
     .menu__item-btn button {
         width: 250px;
+    }
+
+    .footer__list {
+        text-align: center;
+        padding: 0;
     }
 }
 /* ========================================================= */
