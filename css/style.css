@@ -62,6 +62,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: 700;
 }
 .header__logo {
 }
@@ -78,7 +79,6 @@ body {
 }
 .menu__link {
     color: #000;
-    font-weight: 700;
 }
 .menu__link:hover {
     text-decoration: underline;
