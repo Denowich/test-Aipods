@@ -146,8 +146,21 @@ body {
 /* ========================================================= */
 
 @media (max-width: 540px) {
+    .header__inner {
+        align-items: flex-start;
+    }
     .menu__list {
-        
+        flex-wrap: wrap;
+        gap: 20px 40px;
+    }
+    .menu__item:first-child {
+        margin-left: auto;
+    }
+    .menu__item-btn {
+        margin-left: auto;
+    }
+    .menu__item-btn button {
+        width: 250px;
     }
 }
 /* ========================================================= */
