@@ -86,14 +86,14 @@ body {
 }
 .header__btn {
     text-transform: uppercase;
-    background-color: #e37106;
+    background-color: #c2572c;
     color: #fff;
     padding: 15px 58px;
     border-radius: 20px;
     font-weight: 700;
 }
 .header__btn:hover {
-    background-color: #ef7706;
+    background-color: #e37106;
 }
 
 /* ========================================================= */
