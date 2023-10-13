@@ -117,8 +117,9 @@ body {
 .top--AX {
 }
 
-.top__image {
+.top__image img {
     text-align: center;
+    width: 100%;
 }
 
 /* ========================================================= */
@@ -212,6 +213,13 @@ body {
 /* ========================================================= */
 
 @media (max-width: 600px) {
+    .header {
+        padding-bottom: 0;
+    }
+
+    .choose__color {
+        padding-top: 0;
+    }
     .choose__inner {
         width: 450px;
     }
