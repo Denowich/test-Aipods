@@ -120,7 +120,40 @@ body {
 .top__image {
     text-align: center;
 }
+
 /* ========================================================= */
+
+.choose__color {
+    padding: 46px 0 180px;
+}
+.container {
+}
+.choose__inner {
+    width: 558px;
+    text-align: center;
+    margin: 0 auto;
+}
+.choose__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.choose__text {
+    margin-bottom: 80px;
+}
+.choose__items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.choose__item {
+    padding: 50px 55px;
+    border-radius: 20px;
+    border: 1px solid #777;
+    background: rgba(217, 217, 217, 0.00);
+}
+.choose__img {
+}
 /* ========================================================= */
 /* ========================================================= */
 /* ========================================================= */
